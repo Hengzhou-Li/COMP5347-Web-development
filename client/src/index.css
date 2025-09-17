@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* ProfilePage */
+
+/* overall */
+.profile-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tab navigation bar */
+.profile-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-nav button {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.profile-nav button:hover {
+  background-color: #61dafb;
+}
+
+/* Tab content */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Edit Profile Form */
+.edit-profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.edit-profile label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.edit-profile input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-profile button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-profile button:hover {
+  background-color: #45a3d1;
+}
+
+/* Change Password Form */
+.change-password form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.change-password label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.change-password input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.change-password button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change-password button:hover {
+  background-color: #45a3d1;
+}
+
+/* Manage Listings */
+.manage-listings button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.manage-listings button:hover {
+  background-color: #45a3d1;
+}
+
+.manage-listings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.manage-listings li {
+  margin-bottom: 10px;
+}
+
+.manage-listings button.enable-disable {
+  background-color: #ffcc00;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.manage-listings button.remove {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.manage-listings button.enable-disable:hover,
+.manage-listings button.remove:hover {
+  opacity: 0.8;
+}
+
+/* View Comments */
+.view-comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.view-comments li {
+  margin-bottom: 15px;
+}
+
+.view-comments button {
+  background-color: #61dafb;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-comments button:hover {
+  background-color: #45a3d1;
+}
+
+.view-comments button.hide {
+  background-color: #f44336;
+}
+
+.view-comments button.show {
+  background-color: #4caf50;
+}
+
+.view-comments button.hide:hover,
+.view-comments button.show:hover {
+  opacity: 0.8;
+}
+
+/* Sign-out Button */
+.sign-out-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.sign-out-button:hover {
+  background-color: #d32f2f;
+}
